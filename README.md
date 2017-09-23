@@ -16,3 +16,12 @@ Download and install it:
 ```bash
 $ go get github.com/easonlin404/hex2bin
 ```
+
+### GLOBAL OPTIONS
+
+```
+   --hex value                 hex string
+   --filename value, -f value  output filename
+   --help, -h                  show help
+   --version, -v               print the version
+```
