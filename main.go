@@ -2,8 +2,8 @@ package main
 
 import (
 	"encoding/hex"
-	"os"
 	"fmt"
+	"os"
 
 	"github.com/urfave/cli"
 )
@@ -28,8 +28,8 @@ func main() {
 	}
 
 	app.Action = func(c *cli.Context) error {
-		fmt.Print("hexString:%v\n",hexString)
-		fmt.Print("filename:%v\n",filename)
+		fmt.Printf("hexString:%s\n", hexString)
+		fmt.Printf("filename:%s\n", filename)
 
 		hexByte, err := hex.DecodeString(hexString)
 		check(err)
